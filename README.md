@@ -32,9 +32,9 @@ Instruction set
 
     opcode  val    	        function
     ---------------------------------------------------------------------
-    ADD     0x00000000      pop a, then pop b, then push a + b 
-    SUB     0x00000001      pop a, then pop b, then push a - b
-    MUL     0x00000002      pop a, then pop b, then push a * b
+    ADD     0x00000000      add the two top elements in the stack 
+    SUB     0x00000001      add the two top elements in the stack
+    MUL     0x00000002      add the two top elements in the stack
     DEC     0x00000003      decrement the top of the stack
     INC     0x00000004      increment the top of the stack
     ILT     0x00000005      
@@ -43,15 +43,15 @@ Instruction set
     JMPT    0x00000008
     JMPF    0x00000009 
     PUSH    0x0000000A      push value to the top of the stack
-    AND     0x0000000B      pop a, then pop b, then push a & b
-    OR      0x0000000C      pop a, then pop b, then push a | b
-    XOR     0x0000000D      pop a, then pop b, then push a ^ b
-    NOT     0x0000000E      pop a, then push !a
+    AND     0x0000000B      do and operation the two top elements in the stack
+    OR      0x0000000C      do or operation on the two top elements in the stack
+    XOR     0x0000000D      do xor operation on the two top elements in the stack
+    NOT     0x0000000E      do not operation on the top element in the stack
     LOAD    0x0000000F
     GLOAD   0x00000010
     STORE   0x00000011
     GSTORE  0x00000012
-    PRINT   0x00000013      pop a, then print it
+    PRINT   0x00000013      pop the top of the stack then print it
     POP     0x00000014      pop the top of the stack
     CALL    0x00000015      
     RET     0x00000016      return
