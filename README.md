@@ -32,30 +32,30 @@ Instruction set
 
     opcode  val    	        function
     ---------------------------------------------------------------------
-    ADD     0x00000000      add the two top elements in the stack 
-    SUB     0x00000001      add the two top elements in the stack
-    MUL     0x00000002      add the two top elements in the stack
-    DEC     0x00000003      decrement the top of the stack
-    INC     0x00000004      increment the top of the stack
-    ILT     0x00000005      
-    IEQ     0x00000006
-    JMP     0x00000007
-    JMPT    0x00000008
-    JMPF    0x00000009 
-    PUSH    0x0000000A      push value to the top of the stack
-    AND     0x0000000B      do and operation the two top elements in the stack
-    OR      0x0000000C      do or operation on the two top elements in the stack
-    XOR     0x0000000D      do xor operation on the two top elements in the stack
-    NOT     0x0000000E      do not operation on the top element in the stack
-    LOAD    0x0000000F
-    GLOAD   0x00000010
-    STORE   0x00000011
-    GSTORE  0x00000012
-    PRINT   0x00000013      pop the top of the stack then print it
-    POP     0x00000014      pop the top of the stack
-    CALL    0x00000015      
-    RET     0x00000016      return
-    NOP     0x00000017      do nothing
-    DROP    0x00000018      drop the value on top od the stack or remove it
-    SWAP    0x00000019      swap the top two values in the stack
-    EXIT    0x0000001A      exit program
+    ADD     0      add the two top elements in the stack 
+    SUB     1      add the two top elements in the stack
+    MUL     2      add the two top elements in the stack
+    DEC     3      decrement the top of the stack
+    INC     4      increment the top of the stack
+    ILT     5      
+    IEQ     6
+    JMP     7
+    JMPT    8
+    JMPF    9 
+    PUSH    10      push value to the top of the stack
+    AND     11      do and operation the two top elements in the stack
+    OR      12      do or operation on the two top elements in the stack
+    XOR     13      do xor operation on the two top elements in the stack
+    NOT     14      do not operation on the top element in the stack
+    LOAD    15
+    GLOAD   16
+    STORE   17
+    GSTORE  18
+    PRINT   19      pop the top of the stack then print it
+    POP     20      pop the top of the stack
+    CALL    21      
+    RET     22      return
+    NOP     23      do nothing
+    DROP    24      drop the value on top od the stack or remove it
+    SWAP    25      swap the top two values in the stack
+    EXIT    26      exit program
