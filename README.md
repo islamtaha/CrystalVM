@@ -12,7 +12,7 @@ this virtual machine has only a stack it doesn't have registers.
 the main aim of this project is to understand how computer works and how instructions are run in the cpu
 
 Compile
--------
+=======
 
 first you must change the assembly into binary opcode so the vm would understand it
 
