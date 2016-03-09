@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1457560467 source:/home/islam/codeblocks/codeforces/crystal/crsytal-vm/crystalvm.cpp
+	"crystalvm.h"
+	"lexer.h"
+
+1457560504 /home/islam/codeblocks/codeforces/crystal/crsytal-vm/crystalvm.h
+	<vector>
+	<string>
+
+1457560086 /home/islam/codeblocks/codeforces/crystal/crsytal-vm/lexer.h
+	<string.h>
+	<vector>
+	<fstream>
+
+1457560101 source:/home/islam/codeblocks/codeforces/crystal/crsytal-vm/lexer.cpp
+	<iostream>
+	"lexer.h"
+
+1457560491 source:/home/islam/codeblocks/codeforces/crystal/crsytal-vm/main.cpp
+	<iostream>
+	"crystalvm.h"
+
+1457560491 source:/home/islam/codeblocks/codeforces/crystal/crystal-vm/main.cpp
+	<iostream>
+	"crystalvm.h"
+
+1457560504 /home/islam/codeblocks/codeforces/crystal/crystal-vm/crystalvm.h
+	<vector>
+	<string>
+
