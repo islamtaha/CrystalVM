@@ -18,13 +18,13 @@ first you must change the assembly into binary opcode so the vm would understand
 
 To compile using the compiler:
 
- $ ./crystal-compiler/bin/Debug/crystal-compiler filename
-  
+    $ ./crystal-compiler/bin/Debug/crystal-compiler filename
+ 
 this will generate .crystal file in the test folder 
 
 then you need to send the .crystal file to the vm To excute it: 
 
- $ ./crytal-vm/bin/Debug/crystal-vm out.crystal
+    $ ./crytal-vm/bin/Debug/crystal-vm out.crystal
   
 Instruction set
 ---------------
