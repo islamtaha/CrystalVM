@@ -13,6 +13,7 @@ the main aim of this project is to understand how computer works and how instruc
 
 Compile
 -------
+
 first you must change the assembly into binary opcode so the vm would understand it
 
 To compile using the compiler:
@@ -22,6 +23,7 @@ To compile using the compiler:
 this will generate .crystal file in the test folder 
 
 then you need to send the .crystal file to the vm To excute it: 
+
  $ ./crytal-vm/bin/Debug/crystal-vm out.crystal
   
 Instruction set
