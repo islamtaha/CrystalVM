@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1457557710 source:/home/islam/codeblocks/codeforces/crystal/crystal-compiler/compiler.cpp
+	"compiler.h"
+
+1457555033 /home/islam/codeblocks/codeforces/crystal/crystal-compiler/lexer.h
+	<string.h>
+	<vector>
+	<fstream>
+
+1457556185 source:/home/islam/codeblocks/codeforces/crystal/crystal-compiler/lexer.cpp
+	<iostream>
+	"lexer.h"
+
+1457556185 source:/home/islam/codeblocks/codeforces/crystal/crystal/lexer.cpp
+	<iostream>
+	"lexer.h"
+
+1457555033 /home/islam/codeblocks/codeforces/crystal/crystal/lexer.h
+	<string.h>
+	<vector>
+	<fstream>
+
+1457557608 source:/home/islam/codeblocks/codeforces/crystal/crystal/compiler.cpp
+	"compiler.h"
+
+1457557570 /home/islam/codeblocks/codeforces/crystal/crystal/compiler.h
+	<iostream>
+	<vector>
+	"lexer.h"
+
+1457557245 source:/home/islam/codeblocks/codeforces/crystal/crystal/main.cpp
+	<iostream>
+	"compiler.h"
+
+1457557570 /home/islam/codeblocks/codeforces/crystal/crystal-compiler/compiler.h
+	<iostream>
+	<vector>
+	"lexer.h"
+
