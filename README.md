@@ -29,13 +29,13 @@ then you need to send the .crystal file to the vm To excute it:
 Instruction set
 ===============
 
-opcode  val    	        function
----------------------------------------------------------------------
-ADD     0x00000000      pop a, then pop b, then push a + b 
-SUB     0x00000001      pop a, then pop b, then push a - b
-MUL     0x00000002      pop a, then pop b, then push a * b
-DEC     0x00000003      decrement the top of the stack
-INC     0x00000004      increment the top of the stack
+    opcode  val    	        function
+    ---------------------------------------------------------------------
+    ADD     0x00000000      pop a, then pop b, then push a + b 
+    SUB     0x00000001      pop a, then pop b, then push a - b
+    MUL     0x00000002      pop a, then pop b, then push a * b
+    DEC     0x00000003      decrement the top of the stack
+    INC     0x00000004      increment the top of the stack
 ILT     0x00000005      
 IEQ     0x00000006
 JMP     0x00000007
