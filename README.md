@@ -8,9 +8,12 @@ the project contains:
 * [crystal compiler](crystal-compiler)
   * This will translate from assembly-source into binary-opcodes.
 
-this virtual machine has only a stack it doesn't have registers.
 
 the main aim of this project is to understand how computer works and how instructions are run in the cpu
+
+this virtual machine doesn't compile directly to machine code
+
+it just understands the opcode and then run on c++ and c++ compiler change it to machine code
 
 How to Run
 ==========
@@ -32,28 +35,28 @@ Instruction set
 
     opcode  val    	        function
     ---------------------------------------------------------------------
-    ADD     0      add the two top elements in the stack 
-    SUB     1      add the two top elements in the stack
-    MUL     2      add the two top elements in the stack
-    DEC     3      decrement the top of the stack
-    INC     4      increment the top of the stack
-    ILT     5      
-    IEQ     6
-    JMP     7
-    JMPT    8
-    JMPF    9 
+    ADD     0       add the two top elements in the stack 
+    SUB     1       add the two top elements in the stack
+    MUL     2       add the two top elements in the stack
+    DEC     3       decrement the top of the stack
+    INC     4       increment the top of the stack
+    ILT     5       pop a, then pop b, then if b < a excute the next instruction else skip the next instruction
+    IEQ     6       pop a, then pop b, then if b = a excute the next instruction else skip the next instruction
+    JMP     7       jump to a curtain inctruction number
+    JMPT    8       pop the top of the stack and check if it is true then move to intsruction number
+    JMPF    9       pop the top of the stack and check if it is false then move to intsruction number
     PUSH    10      push value to the top of the stack
-    AND     11      do and operation the two top elements in the stack
+    AND     11      do and operation on the two top elements in the stack
     OR      12      do or operation on the two top elements in the stack
     XOR     13      do xor operation on the two top elements in the stack
     NOT     14      do not operation on the top element in the stack
-    LOAD    15
-    GLOAD   16
-    STORE   17
-    GSTORE  18
+    LOAD    15      load a value to the top of the stack from local memeory
+    GLOAD   16      load a value to the top of the stack from global memeory
+    STORE   17      pop the top of stack and store it in some local address memory
+    GSTORE  18      pop the top of stack and store it in some global address memory
     PRINT   19      pop the top of the stack then print it
     POP     20      pop the top of the stack
-    CALL    21      
+    CALL    21      function call takes the address of the function and number of arguments of the function and the arguments are took from the top of the stack
     RET     22      return
     NOP     23      do nothing
     DROP    24      drop the value on top od the stack or remove it
