@@ -4,7 +4,7 @@ CrystalVM is a simple stack-based virtual machine that works with 27 instruction
 
 the project contains:
 * [crystal vm](crystal-vm)
-  * A simple, stack-based virtual machine for executing the assembly instructions.
+  * A simple, stack-based virtual machine for executing the instructions.
 * [crystal compiler](crystal-compiler)
   * This will translate from assembly-source into binary-opcodes in the form of .crystal file.
 
