@@ -6,7 +6,7 @@ the project contains:
 * [crystal vm](crystal-vm)
   * A simple, stack-based virtual machine for executing the assembly instructions.
 * [crystal compiler](crystal-compiler)
-  * This will translate from assembly-source into binary-opcodes.
+  * This will translate from assembly-source into binary-opcodes in the form of .crystal file.
 
 
 the main aim of this project is to understand how computer works and how instructions are run in the cpu
